@@ -221,12 +221,14 @@ function generateTable() {
     <p class = "historyPara">
     <i>The first tournament began with the 2019 Ashes series. In March 2020, matches were suspended due to the COVID-19 pandemic, not resuming before July 2020, with several rounds of matches being postponed or ultimately cancelled. New Zealand became the first team to qualify for the final, when it was confirmed that the series between South Africa and Australia would not proceed,followed by India. The inaugural World Test Championship Final was played between India and New Zealand from 18 to 23 June 2021 at Rose Bowl, Southampton, England. Despite the opening and fourth day of the final being washed out by rain, New Zealand managed to win in the final session of the reserve day and lifted the first World Test Championship trophy.</i>
     </p>
+    <img class = "winImage" src = "/images/wtc21final.png" />
     <h2 class = "firstEdition history">
         2021-2023 tournament
     </h2>
     <p class = "historyPara">
     <i>The WTC 2021–23 cycle began in August 2021 with Pataudi Trophy (5 matches series between India and England). The International Cricket Council officially announced the full programme with a new points system. Australia qualified for the final by winning the 3rd Test Match of the 2022–23 Border-Gavaskar Trophy. India qualified after Sri Lanka failed to win the first match of their series in New Zealand, qualifying for the final for the second consecutive time. The final was played from 7 June to 11 June 2023 at The Oval, London, England, with Australia emerging as champions after defeating India by 209 runs. This was India's second consecutive defeat at the WTC final.</i>
-    </p>`
+    </p>
+    <img class = "winImage" src = "/images/wtc23final.png" />`
     document.querySelector(".table").innerHTML = tableHtml;
  }
  generateTable();
